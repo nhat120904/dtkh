@@ -7,5 +7,12 @@ if not exist ".venv" (
   .venv\Scripts\python -m pip install --upgrade pip
   echo Cai thu vien - lan dau mat vai phut vi TensorFlow kha nang ...
   .venv\Scripts\python -m pip install -r requirements.txt
+  if errorlevel 1 exit /b 1
+)
+.venv\Scripts\python -c "import dotenv" >nul 2>&1
+if errorlevel 1 (
+  echo Cap nhat thu vien con thieu ...
+  .venv\Scripts\python -m pip install -r requirements.txt
+  if errorlevel 1 exit /b 1
 )
 .venv\Scripts\python -m streamlit run app.py %*
