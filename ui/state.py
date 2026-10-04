@@ -69,11 +69,11 @@ def badge_context() -> BadgeContext:
 
 # ----------------------------------------------------------------------------- settings
 def threshold() -> float:
-    return st.session_state.get("threshold_pct", DEFAULT_CONFIDENCE_THRESHOLD * 100) / 100
+    return DEFAULT_CONFIDENCE_THRESHOLD
 
 
 def top_k() -> int:
-    return st.session_state.get("top_k", DEFAULT_TOP_K)
+    return DEFAULT_TOP_K
 
 
 # ----------------------------------------------------------------------------- profile

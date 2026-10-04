@@ -1,4 +1,4 @@
-"""Trang Kho kiến thức: tra cứu, lọc theo nhóm, xem bài học chi tiết từng dụng cụ."""
+"""Trang Kho kiến thức: tra cứu theo nhóm, xem bài học chi tiết từng dụng cụ."""
 
 from __future__ import annotations
 
@@ -26,19 +26,13 @@ def render() -> None:
     groups = {"all": "Tất cả"} | {g.id: f"{g.icon} {g.short}" for g in kb.groups()}
     group = c2.pills("Nhóm dụng cụ", list(groups), format_func=groups.get, default="all", key="lib_group") or "all"
 
-    c3, c4 = st.columns([3, 4], vertical_alignment="center")
-    only_ai = c3.toggle("🤖 Chỉ hiện dụng cụ AI nhận dạng được", key="lib_only_ai")
     read = len(profile["read_tools"])
-    with c4:
-        show(f'<div style="display:flex;gap:.8rem;align-items:center"><b style="white-space:nowrap">📖 Đã học {read}/{len(kb)}</b>'
-             f'<div style="flex:1">{xp_bar(read / len(kb))}</div></div>')
+    show(f'<div style="display:flex;gap:.8rem;align-items:center;margin:.6rem 0 1rem"><b style="white-space:nowrap">📖 Đã học {read}/{len(kb)}</b>'
+         f'<div style="flex:1">{xp_bar(read / len(kb))}</div></div>')
 
     tools = kb.search(query)
     if group != "all":
         tools = [t for t in tools if t.group == group]
-    if only_ai:
-        tools = [t for t in tools if t.id in ai_ids]
-
     st.write("")
     if not tools:
         show(empty_state("🧐", "Không tìm thấy dụng cụ phù hợp", "Thử từ khóa khác, ví dụ “cắt”, “kẹp”, “đo”."))

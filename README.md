@@ -200,7 +200,8 @@ số lớp của model khác số dòng `labels.txt`, chưa cài TensorFlow, cam
   Thêm hình minh họa trong `scripts/generate_assets.py` rồi chạy `python scripts/generate_assets.py`
   (dụng cụ chưa có hình sẽ hiện biểu tượng mặc định).
 - **Thêm câu hỏi:** thêm vào `data/quiz_bank.json` (`topic`: `ten` / `cong_dung` / `an_toan`, `answer` là chỉ số đáp án đúng).
-- **Ngưỡng tin cậy / số dự đoán hiển thị:** thanh bên → ⚙️ *Cài đặt nhận dạng*.
+- **Ngưỡng tin cậy:** sao chép `.env.example` thành `.env`, rồi đặt `XUONG_CONFIDENCE_THRESHOLD`
+  (mặc định `0.60`, từ `0.0` đến `1.0`).
 - **Thư mục lưu hồ sơ:** biến môi trường `XUONG_PROFILES_DIR`.
 
 ## 🧪 Kiểm thử

@@ -1,10 +1,9 @@
-"""Thanh bên: thẻ người chơi, chọn/tạo hồ sơ, trạng thái AI, cài đặt nhận dạng."""
+"""Thanh bên: hồ sơ học sinh và trạng thái nhận dạng."""
 
 from __future__ import annotations
 
 import streamlit as st
 
-from core.config import DEFAULT_CONFIDENCE_THRESHOLD, DEFAULT_TOP_K
 from core.gamification import level_for
 from core.storage import clean_name
 from ui import state
@@ -51,10 +50,3 @@ def render_sidebar() -> None:
             show(banner("demo", "🧪", "AI đang ở chế độ trải nghiệm", "Thử nhận dạng bằng ảnh minh họa."))
         else:
             show(banner("ok", "🤖", "AI đã sẵn sàng", "Có thể bắt đầu nhận dạng dụng cụ."))
-        st.write("")
-        with st.expander("⚙️ Cài đặt nhận dạng"):
-            st.session_state.setdefault("threshold_pct", int(DEFAULT_CONFIDENCE_THRESHOLD * 100))
-            st.session_state.setdefault("top_k", DEFAULT_TOP_K)
-            st.slider("Ngưỡng tin cậy", 30, 95, step=5, format="%d%%", key="threshold_pct",
-                      help="AI chỉ “chốt” kết quả khi độ tin cậy cao hơn ngưỡng này.")
-            st.segmented_control("Số dự đoán hiển thị", [3, 5], key="top_k")

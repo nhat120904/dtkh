@@ -54,6 +54,13 @@
   background: var(--hazard); opacity: .9;
 }
 
+/* Hộp thoại bài học nổi rõ trên nền trang phía sau. */
+[data-testid="stDialog"] {
+  background: rgba(27, 31, 42, .34) !important;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+
 h1, h2, h3, h4 { letter-spacing: -0.01em; color: var(--ink); }
 
 /* ---------------------------------------------------------------- sidebar */

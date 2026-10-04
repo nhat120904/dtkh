@@ -15,5 +15,8 @@ tf-keras>=2.15,<2.21
 altair>=5.0
 pandas>=2.0
 
+# Nạp cấu hình cục bộ từ .env
+python-dotenv>=1.0,<2.0
+
 # Kiểm thử (tùy chọn)
 pytest>=8.0
