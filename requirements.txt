@@ -1,0 +1,19 @@
+# Giao diện web
+streamlit>=1.50,<2.0
+
+# Xử lý ảnh
+numpy>=1.26,<3.0
+pillow>=10.0
+opencv-python-headless>=4.8
+
+# AI – chạy model Google Teachable Machine (Keras .h5 / SavedModel)
+tensorflow>=2.15,<2.21
+# Keras 2 "legacy" – giúp mở file keras_model.h5 của Teachable Machine ổn định hơn trên TensorFlow 2.16+
+tf-keras>=2.15,<2.21
+
+# Biểu đồ (đi kèm Streamlit, khai báo rõ cho chắc chắn)
+altair>=5.0
+pandas>=2.0
+
+# Kiểm thử (tùy chọn)
+pytest>=8.0

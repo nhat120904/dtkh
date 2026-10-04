@@ -1,0 +1,82 @@
+[
+ {
+  "file": "bua_1.jpg",
+  "tool_id": "bua",
+  "license": "CC BY 2.0",
+  "creator": "Open Images V7 (ảnh Flickr)",
+  "source": "https://storage.googleapis.com/openimages/web/index.html",
+  "origin": "openimages"
+ },
+ {
+  "file": "bua_2.jpg",
+  "tool_id": "bua",
+  "license": "CC BY-SA 3.0",
+  "creator": "Tác giả trên Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Carpenter%27s_hammer.JPG",
+  "origin": "wikimedia-commons"
+ },
+ {
+  "file": "kim_1.jpg",
+  "tool_id": "kim",
+  "license": "CC BY 2.0",
+  "creator": "geishaboy500",
+  "source": "https://www.flickr.com/photos/49503154413@N01/4241037853",
+  "origin": "openverse:flickr"
+ },
+ {
+  "file": "kim_2.jpg",
+  "tool_id": "kim",
+  "license": "CC BY 4.0",
+  "creator": "Lucien Hugoniot-Tissot",
+  "source": "https://commons.wikimedia.org/wiki/File:Pliers_(AM_2004.44.2-2).jpg",
+  "origin": "wikimedia-commons"
+ },
+ {
+  "file": "tua_vit_1.jpg",
+  "tool_id": "tua_vit",
+  "license": "CC BY 2.0",
+  "creator": "cogdogblog",
+  "source": "https://commons.wikimedia.org/wiki/File:2013-365-167_Dad_Held_This_Screwdriver_(9064786538).jpg",
+  "origin": "wikimedia-commons"
+ },
+ {
+  "file": "tua_vit_2.jpg",
+  "tool_id": "tua_vit",
+  "license": "CC BY-SA 4.0",
+  "creator": "Ryse93",
+  "source": "https://commons.wikimedia.org/wiki/File:Mini_Phillips_screwdriver_(2).jpg",
+  "origin": "wikimedia-commons"
+ },
+ {
+  "file": "co_le_1.jpg",
+  "tool_id": "co_le",
+  "license": "CC BY 2.0",
+  "creator": "Open Images V7 (ảnh Flickr)",
+  "source": "https://storage.googleapis.com/openimages/web/index.html",
+  "origin": "openimages"
+ },
+ {
+  "file": "co_le_2.jpg",
+  "tool_id": "co_le",
+  "license": "CC BY-SA 3.0",
+  "creator": "Gamsbart",
+  "source": "https://commons.wikimedia.org/wiki/File:Bremsleitungsschluessel.JPG",
+  "origin": "wikimedia-commons"
+ },
+ {
+  "file": "cua_tay_1.jpg",
+  "tool_id": "cua_tay",
+  "license": "CC BY-SA 3.0",
+  "creator": "JiriMatejicek",
+  "source": "https://commons.wikimedia.org/wiki/File:Prepere_67_poutac.jpg",
+  "origin": "wikimedia-commons"
+ },
+ {
+  "file": "cua_tay_2.jpg",
+  "tool_id": "cua_tay",
+  "license": "CC BY 2.0",
+  "creator": "Open Images V7 (ảnh Flickr)",
+  "source": "https://storage.googleapis.com/openimages/web/index.html",
+  "origin": "openimages"
+ }
+]

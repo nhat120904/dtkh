@@ -1,0 +1,5 @@
+# Chỉ cần khi muốn TỰ THU THẬP & LỌC lại dữ liệu huấn luyện (scripts/collect_dataset.py, scripts/clean_dataset.py).
+# Ứng dụng và scripts/train_model.py KHÔNG cần các gói này.
+requests>=2.31
+torch>=2.2
+open_clip_torch>=2.24

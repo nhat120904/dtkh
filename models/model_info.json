@@ -1,0 +1,173 @@
+{
+ "created": "2026-10-04T19:42:29",
+ "base_model": "MobileNetV2 (ImageNet) + học chuyển giao",
+ "input_size": 224,
+ "labels": [
+  "Búa",
+  "Kìm",
+  "Tua vít",
+  "Cờ lê",
+  "Cưa tay",
+  "Giũa",
+  "Nền",
+  "Thước lá"
+ ],
+ "folders": [
+  "bua",
+  "kim",
+  "tua_vit",
+  "co_le",
+  "cua_tay",
+  "giua",
+  "nen",
+  "thuoc_la"
+ ],
+ "images": {
+  "train": 1037,
+  "val": 209,
+  "test": 209
+ },
+ "per_class_images": {
+  "Búa": 149,
+  "Kìm": 209,
+  "Tua vít": 167,
+  "Cờ lê": 103,
+  "Cưa tay": 73,
+  "Giũa": 52,
+  "Nền": 500,
+  "Thước lá": 166
+ },
+ "val_accuracy": 0.9522,
+ "test": {
+  "accuracy": 0.9187,
+  "per_class": {
+   "Búa": {
+    "precision": 0.913,
+    "recall": 0.955,
+    "support": 22
+   },
+   "Kìm": {
+    "precision": 0.964,
+    "recall": 0.871,
+    "support": 31
+   },
+   "Tua vít": {
+    "precision": 1.0,
+    "recall": 0.92,
+    "support": 25
+   },
+   "Cờ lê": {
+    "precision": 0.737,
+    "recall": 0.933,
+    "support": 15
+   },
+   "Cưa tay": {
+    "precision": 0.583,
+    "recall": 0.7,
+    "support": 10
+   },
+   "Giũa": {
+    "precision": 0.625,
+    "recall": 0.714,
+    "support": 7
+   },
+   "Nền": {
+    "precision": 1.0,
+    "recall": 0.947,
+    "support": 75
+   },
+   "Thước lá": {
+    "precision": 0.96,
+    "recall": 1.0,
+    "support": 24
+   }
+  },
+  "confusion": [
+   [
+    21,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    27,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    0,
+    23,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    14,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    7,
+    2,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    2,
+    5,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    71,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    24
+   ]
+  ],
+  "threshold": 0.6,
+  "confident_share": 0.8038,
+  "confident_accuracy": 0.9762,
+  "test_images": 209
+ },
+ "train_minutes": 3.8
+}

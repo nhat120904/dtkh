@@ -1,0 +1,517 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "id": "do_vach_dau",
+      "name": "Dụng cụ đo, kiểm tra và vạch dấu",
+      "short": "Đo & vạch dấu",
+      "icon": "📏",
+      "color": "#2F5BEA",
+      "description": "Giúp xác định hình dạng, kích thước và vị trí cần gia công một cách chính xác."
+    },
+    {
+      "id": "thao_lap",
+      "name": "Dụng cụ tháo lắp và kẹp chặt",
+      "short": "Tháo lắp & kẹp chặt",
+      "icon": "🔧",
+      "color": "#0E9F8A",
+      "description": "Dùng để tháo, lắp các mối ghép (bu lông, đai ốc, vít) và giữ chặt vật khi làm việc."
+    },
+    {
+      "id": "gia_cong",
+      "name": "Dụng cụ gia công",
+      "short": "Gia công",
+      "icon": "🔨",
+      "color": "#E8590C",
+      "description": "Dùng để làm thay đổi hình dạng, kích thước của vật liệu: cắt, đục, giũa, khoan, đập."
+    }
+  ],
+  "tools": [
+    {
+      "id": "thuoc_la",
+      "name": "Thước lá",
+      "english": "Steel rule",
+      "emoji": "📏",
+      "group": "do_vach_dau",
+      "aliases": ["thuoc la", "thuoc thep", "steel rule", "ruler", "metal ruler"],
+      "summary": "dùng để đo độ dài và xác định kích thước của vật",
+      "description": "Thước lá là một tấm thép mỏng, trên mặt có khắc vạch chia milimét. Đây là dụng cụ đo đơn giản và được dùng nhiều nhất trong xưởng cơ khí.",
+      "structure": [
+        "Làm bằng thép hợp kim dụng cụ, ít co giãn và không gỉ",
+        "Dày khoảng 0,9 – 1,5 mm, rộng 10 – 25 mm",
+        "Dài từ 150 mm đến 1000 mm, các vạch chia cách nhau 1 mm"
+      ],
+      "uses": [
+        "Đo chiều dài, chiều rộng của chi tiết",
+        "Xác định kích thước khi vạch dấu",
+        "Làm thước kẻ thẳng khi vạch dấu bằng mũi vạch"
+      ],
+      "how_to_use": [
+        "Đặt mép thước sát và song song với cạnh cần đo",
+        "Đặt vạch số 0 trùng với đầu vật cần đo",
+        "Nhìn thẳng góc với mặt thước để đọc kết quả chính xác"
+      ],
+      "safety": [
+        "Cạnh thước thép khá sắc, cầm nắm nhẹ nhàng để không bị đứt tay",
+        "Không dùng thước để cạy, nạy hoặc gõ vào vật khác",
+        "Lau sạch, cất đúng chỗ để thước không bị cong vênh, gỉ sét"
+      ],
+      "key_safety": null,
+      "fun_fact": "Mỗi vạch chia nhỏ nhất trên thước lá là 1 mm – chỉ rộng bằng khoảng chục sợi tóc xếp cạnh nhau!"
+    },
+    {
+      "id": "thuoc_cap",
+      "name": "Thước cặp",
+      "english": "Vernier caliper",
+      "emoji": "📐",
+      "group": "do_vach_dau",
+      "aliases": ["thuoc cap", "thuoc kep", "caliper", "vernier caliper", "vernier"],
+      "summary": "dùng để đo đường kính trong, đường kính ngoài và chiều sâu lỗ",
+      "description": "Thước cặp là dụng cụ đo có độ chính xác cao (khoảng 0,1 – 0,05 mm), giúp đo những kích thước mà thước lá khó đo được như đường kính ống hay chiều sâu lỗ.",
+      "structure": [
+        "Cán thước có thang chia chính (đơn vị mm)",
+        "Mỏ đo ngoài và mỏ đo trong",
+        "Khung động trượt trên cán, có thang chia phụ gọi là du xích",
+        "Vít hãm để giữ cố định khung động",
+        "Cán đo chiều sâu"
+      ],
+      "uses": [
+        "Đo đường kính ngoài của trục, ống",
+        "Đo đường kính trong của lỗ, ống",
+        "Đo chiều sâu của lỗ, rãnh"
+      ],
+      "how_to_use": [
+        "Lau sạch mỏ đo, kiểm tra vạch 0 của du xích trùng với vạch 0 của thước chính",
+        "Kẹp nhẹ vật giữa hai mỏ đo rồi vặn vít hãm",
+        "Đọc phần nguyên (mm) trên thước chính, phần lẻ ở vạch du xích trùng với một vạch của thước chính"
+      ],
+      "safety": [
+        "Mỏ đo nhọn – không chĩa vào người khác, không đùa nghịch",
+        "Không đo vật đang quay hoặc đang chuyển động",
+        "Không dùng thước cặp để vạch dấu hay gõ đập",
+        "Đo xong lau sạch và cất vào hộp"
+      ],
+      "key_safety": "Tuyệt đối không đo vật đang quay; mỏ đo nhọn nên không chĩa vào người khác",
+      "fun_fact": "Thang du xích (vernier) mang tên nhà toán học người Pháp Pierre Vernier, người mô tả cách đo này vào năm 1631."
+    },
+    {
+      "id": "e_ke",
+      "name": "Ê ke và ke vuông",
+      "english": "Try square / set square",
+      "emoji": "📐",
+      "group": "do_vach_dau",
+      "aliases": ["e ke", "eke", "ke vuong", "set square", "try square", "square", "thuoc do goc"],
+      "summary": "dùng để kiểm tra góc vuông và vạch đường vuông góc",
+      "description": "Ê ke và ke vuông giúp kiểm tra hai mặt của chi tiết có vuông góc với nhau hay không. Muốn đo trị số của một góc bất kì, người thợ dùng thước đo góc vạn năng.",
+      "structure": [
+        "Ke vuông gồm đế (cán) dày và lưỡi mỏng ghép vuông góc với nhau",
+        "Ê ke có dạng hình tam giác vuông",
+        "Làm bằng thép, nhựa cứng hoặc gỗ"
+      ],
+      "uses": [
+        "Kiểm tra góc vuông của chi tiết",
+        "Vạch đường thẳng vuông góc với một cạnh",
+        "Kiểm tra sơ bộ độ phẳng của bề mặt"
+      ],
+      "how_to_use": [
+        "Áp sát đế ke vào một mặt chuẩn của vật",
+        "Đưa lưỡi ke chạm vào mặt cần kiểm tra",
+        "Nhìn khe sáng giữa lưỡi ke và vật: không có khe hở là góc vuông chuẩn"
+      ],
+      "safety": [
+        "Không dùng ke để gõ, cạy vì sẽ làm lệch góc",
+        "Giữ chắc ke khi vạch dấu để tay không trượt vào mũi vạch",
+        "Cất giữ nơi khô ráo, tránh làm rơi gây biến dạng"
+      ],
+      "key_safety": null,
+      "fun_fact": "Từ “ê ke” bắt nguồn từ tiếng Pháp “équerre”, nghĩa là thước vuông góc."
+    },
+    {
+      "id": "mui_vach",
+      "name": "Mũi vạch",
+      "english": "Scriber",
+      "emoji": "✒️",
+      "group": "do_vach_dau",
+      "aliases": ["mui vach", "scriber", "but vach"],
+      "summary": "dùng để vạch các đường dấu lên bề mặt vật liệu cần gia công",
+      "description": "Mũi vạch là một thanh thép nhỏ có đầu nhọn đã được tôi cứng. Người thợ dùng nó như một chiếc “bút chì” để kẻ đường dấu trên kim loại trước khi cưa, đục, giũa.",
+      "structure": [
+        "Thân bằng thép, có khía nhám để cầm không trơn",
+        "Đầu nhọn được tôi cứng, có loại có thêm một đầu uốn cong"
+      ],
+      "uses": [
+        "Vạch đường thẳng, đường cong làm dấu gia công",
+        "Kết hợp với thước lá, ê ke để vạch dấu chính xác"
+      ],
+      "how_to_use": [
+        "Đặt thước sát đường cần vạch và giữ chặt thước",
+        "Để mũi vạch sát chân thước, hơi nghiêng về hướng di chuyển",
+        "Vạch một lần dứt khoát, không vạch đi vạch lại"
+      ],
+      "safety": [
+        "Đầu mũi vạch rất nhọn – cắm vào nắp hoặc nút bảo vệ khi không dùng",
+        "Không để mũi vạch trong túi áo, túi quần",
+        "Không chĩa mũi vạch về phía bạn bè"
+      ],
+      "key_safety": "Đầu rất nhọn: cắm vào nắp bảo vệ khi không dùng, không bỏ trong túi áo, túi quần",
+      "fun_fact": "Bút chì gần như không để lại vết rõ trên kim loại, nên thợ cơ khí dùng mũi vạch để tạo đường dấu mảnh, sắc nét và bền."
+    },
+    {
+      "id": "cham_dau",
+      "name": "Chấm dấu",
+      "english": "Center punch",
+      "emoji": "📍",
+      "group": "do_vach_dau",
+      "aliases": ["cham dau", "center punch", "centre punch", "punch", "mui cham dau"],
+      "summary": "dùng để đánh dấu tâm lỗ trước khi khoan",
+      "description": "Chấm dấu là thanh thép có mũi nhọn hình côn. Khi gõ búa nhẹ, nó tạo một vết lõm nhỏ giúp mũi khoan không bị trượt khỏi vị trí.",
+      "structure": [
+        "Thân hình trụ bằng thép, có khía nhám",
+        "Mũi nhọn hình côn được tôi cứng",
+        "Đầu trên phẳng để búa gõ vào"
+      ],
+      "uses": [
+        "Đánh dấu tâm lỗ cần khoan",
+        "Đánh dấu các điểm trên đường vạch dấu để dễ quan sát"
+      ],
+      "how_to_use": [
+        "Đặt mũi chấm dấu đúng giao điểm của hai đường vạch dấu",
+        "Giữ chấm dấu thẳng đứng",
+        "Gõ búa nhẹ, dứt khoát một lần lên đầu chấm dấu"
+      ],
+      "safety": [
+        "Cầm chắc chấm dấu, mắt nhìn vào mũi chấm khi gõ búa",
+        "Chỉ gõ búa nhẹ để mũi không bị vỡ, văng",
+        "Đeo kính bảo hộ khi gõ"
+      ],
+      "key_safety": "Chỉ gõ búa thật nhẹ lên đầu để tạo vết lõm, gõ quá mạnh có thể làm mũi côn vỡ và văng ra",
+      "fun_fact": "Vết lõm nhỏ của chấm dấu giống như “cái tổ” giữ mũi khoan đứng yên, không chạy lung tung khi bắt đầu khoan."
+    },
+    {
+      "id": "co_le",
+      "name": "Cờ lê",
+      "english": "Wrench / Spanner",
+      "emoji": "🔧",
+      "group": "thao_lap",
+      "aliases": ["co le", "cole", "wrench", "spanner", "co le vong", "co le det", "co le tong"],
+      "summary": "dùng để tháo, lắp bu lông và đai ốc có kích thước cố định",
+      "description": "Cờ lê có miệng với kích thước cố định, mỗi đầu chỉ vặn được đai ốc đúng cỡ ghi trên thân (ví dụ 10, 12, 14 mm).",
+      "structure": [
+        "Làm bằng thép hợp kim cứng, chịu lực tốt",
+        "Đầu miệng hở (cờ lê dẹt) hoặc đầu vòng kín (cờ lê vòng)",
+        "Trên thân có ghi số cỡ miệng bằng milimét"
+      ],
+      "uses": [
+        "Tháo, lắp bu lông và đai ốc",
+        "Giữ đai ốc đứng yên khi vặn bu lông ở phía đối diện"
+      ],
+      "how_to_use": [
+        "Chọn cờ lê có cỡ miệng đúng bằng cỡ đai ốc",
+        "Lồng miệng cờ lê vào sát và hết chiều sâu đai ốc",
+        "Nên kéo cờ lê về phía mình thay vì đẩy ra để tránh trượt tay"
+      ],
+      "safety": [
+        "Dùng đúng cỡ: miệng rộng hơn đai ốc dễ bị trượt gây đập tay",
+        "Không nối dài cán bằng ống thép để tăng lực",
+        "Không dùng búa đập vào cán cờ lê",
+        "Giữ tay và dụng cụ sạch dầu mỡ để không trơn trượt"
+      ],
+      "key_safety": "Chọn miệng đúng cỡ đai ốc, không nối dài cán bằng ống thép để tăng lực vặn",
+      "fun_fact": "Chữ “cờ lê” bắt nguồn từ tiếng Pháp “clé”, nghĩa là “chìa khóa” – vì nó giống chiếc chìa khóa mở đai ốc."
+    },
+    {
+      "id": "mo_let",
+      "name": "Mỏ lết",
+      "english": "Adjustable wrench",
+      "emoji": "🔧",
+      "group": "thao_lap",
+      "aliases": ["mo let", "molet", "adjustable wrench", "adjustable spanner"],
+      "summary": "dùng để tháo, lắp bu lông và đai ốc nhiều cỡ khác nhau nhờ miệng điều chỉnh được",
+      "description": "Mỏ lết giống cờ lê nhưng có thể điều chỉnh độ mở của miệng bằng một con lăn (vít điều chỉnh), nên một chiếc mỏ lết thay được nhiều chiếc cờ lê.",
+      "structure": [
+        "Thân và cán bằng thép",
+        "Má tĩnh (cố định) liền với thân",
+        "Má động trượt được",
+        "Vít điều chỉnh (con lăn) để thay đổi độ mở miệng"
+      ],
+      "uses": [
+        "Tháo, lắp bu lông, đai ốc có nhiều cỡ khác nhau",
+        "Thay cho cả bộ cờ lê khi làm các việc đơn giản"
+      ],
+      "how_to_use": [
+        "Xoay con lăn mở miệng rộng hơn đai ốc",
+        "Lồng vào đai ốc rồi xoay con lăn cho hai má kẹp khít",
+        "Vặn sao cho lực tác dụng chủ yếu vào má tĩnh"
+      ],
+      "safety": [
+        "Luôn chỉnh miệng kẹp khít đai ốc trước khi vặn",
+        "Để lực tác dụng vào má tĩnh, tránh làm hỏng má động",
+        "Không dùng mỏ lết làm búa để gõ đập"
+      ],
+      "key_safety": "Chỉnh hai má kẹp khít đai ốc và để lực tác dụng chủ yếu vào má tĩnh",
+      "fun_fact": "“Mỏ lết” bắt nguồn từ tiếng Pháp “molette” – chính là tên của con lăn điều chỉnh trên dụng cụ."
+    },
+    {
+      "id": "tua_vit",
+      "name": "Tua vít",
+      "english": "Screwdriver",
+      "emoji": "🪛",
+      "group": "thao_lap",
+      "aliases": ["tua vit", "tuavit", "to vit", "tovit", "tuoc no vit", "screwdriver", "screw driver"],
+      "summary": "dùng để vặn (tháo, lắp) các loại vít có đầu xẻ rãnh",
+      "description": "Tua vít có đầu dẹt (một cạnh) hoặc đầu bake hình chữ thập (bốn cạnh). Phải chọn đúng loại đầu và đúng cỡ với rãnh vít.",
+      "structure": [
+        "Cán bằng nhựa hoặc gỗ, có khía để cầm chắc",
+        "Thân bằng thép cứng",
+        "Đầu tua vít: dẹt (–) hoặc bake (+)"
+      ],
+      "uses": [
+        "Tháo, lắp vít trên đồ dùng, máy móc",
+        "Tua vít cách điện dùng khi sửa chữa đồ điện (đã ngắt điện)"
+      ],
+      "how_to_use": [
+        "Chọn tua vít đúng loại đầu và vừa với rãnh vít",
+        "Đặt đầu tua vít thẳng hàng với thân vít, ấn nhẹ",
+        "Xoay cùng chiều kim đồng hồ để vặn chặt, ngược chiều để tháo"
+      ],
+      "safety": [
+        "Không dùng tua vít để cạy, đục hoặc làm đòn bẩy",
+        "Không đặt tay đỡ vật ngay trước hướng mũi tua vít",
+        "Ngắt điện trước khi sửa đồ điện và dùng tua vít có cán cách điện",
+        "Không dùng tua vít bị mòn, sứt đầu"
+      ],
+      "key_safety": "Không đặt tay đỡ vật ở phía trước hướng mũi khi vặn, và không dùng để cạy, đục",
+      "fun_fact": "“Tua vít” đến từ tiếng Pháp “tournevis” – ghép từ “tourner” (xoay) và “vis” (con vít)."
+    },
+    {
+      "id": "kim",
+      "name": "Kìm",
+      "english": "Pliers",
+      "emoji": "✂️",
+      "group": "thao_lap",
+      "aliases": ["kim", "kim dien", "kim cat", "kim mo nhon", "kim mo qua", "pliers", "plier"],
+      "summary": "dùng để kẹp chặt, giữ, uốn hoặc cắt dây kim loại",
+      "description": "Kìm hoạt động như một đòn bẩy: bóp nhẹ tay cầm là má kìm kẹp rất chặt. Có nhiều loại kìm: kìm điện, kìm mỏ nhọn, kìm cắt, kìm mỏ quạ…",
+      "structure": [
+        "Má kìm (mỏ kìm) bằng thép, có răng khía để kẹp chắc",
+        "Lưỡi cắt ở gần khớp (với kìm điện, kìm cắt)",
+        "Chốt (khớp quay) nối hai nửa kìm",
+        "Tay cầm thường được bọc nhựa cách điện"
+      ],
+      "uses": [
+        "Kẹp chặt, giữ vật khi gia công",
+        "Uốn, xoắn dây kim loại",
+        "Cắt dây thép nhỏ, dây điện; tuốt vỏ dây điện"
+      ],
+      "how_to_use": [
+        "Đặt vật vào giữa hai má kìm",
+        "Bóp chặt hai tay cầm để kẹp hoặc cắt",
+        "Khi cắt dây, hướng đầu dây bị cắt xuống dưới, ra xa mặt"
+      ],
+      "safety": [
+        "Không dùng kìm thay cờ lê để vặn đai ốc (làm hỏng cạnh đai ốc)",
+        "Không dùng kìm để gõ, đập như búa",
+        "Khi làm điện: ngắt điện và dùng kìm có tay cầm cách điện còn nguyên vẹn",
+        "Khi cắt dây, hướng đầu dây ra xa để mẩu dây không văng vào mắt"
+      ],
+      "key_safety": "Khi cắt dây, hướng đầu dây ra xa mặt để mẩu dây không văng vào mắt; không dùng để vặn đai ốc thay cờ lê",
+      "fun_fact": "Kìm là một “đòn bẩy đôi”: nhờ khớp quay đặt gần má kìm, lực bóp của tay được khuếch đại lên nhiều lần."
+    },
+    {
+      "id": "e_to",
+      "name": "Ê tô",
+      "english": "Bench vise",
+      "emoji": "🗜️",
+      "group": "thao_lap",
+      "aliases": ["e to", "eto", "vise", "vice", "bench vise", "bench vice"],
+      "summary": "dùng để kẹp chặt vật khi gia công như cưa, đục, giũa, khoan",
+      "description": "Ê tô được bắt chặt trên bàn nguội. Khi quay tay quay, vít me đẩy má động tiến lại gần má tĩnh để kẹp chặt vật.",
+      "structure": [
+        "Thân và đế bắt chặt vào bàn nguội",
+        "Má tĩnh và má động (có tấm kẹp khía nhám)",
+        "Vít me và tay quay để đóng, mở hai má"
+      ],
+      "uses": [
+        "Kẹp chặt phôi khi cưa, đục, giũa, khoan",
+        "Giữ chi tiết cố định khi lắp ráp, uốn nắn"
+      ],
+      "how_to_use": [
+        "Mở má ê tô rộng hơn vật một chút",
+        "Đặt vật vào giữa hai má, phần cần gia công nhô lên vừa phải",
+        "Quay tay quay để kẹp vừa đủ chặt"
+      ],
+      "safety": [
+        "Khi kẹp, không để tay hoặc ngón tay ở giữa hai má ê tô",
+        "Không dùng búa đập hoặc nối ống vào tay quay để kẹp",
+        "Kẹp vừa đủ chặt; xong việc quay hai má về vị trí khép gần nhau"
+      ],
+      "key_safety": "Không để ngón tay giữa hai má khi kẹp, không dùng búa đập hay nối ống vào tay quay",
+      "fun_fact": "“Ê tô” là từ mượn tiếng Pháp “étau”. Một chiếc ê tô tốt giúp đôi tay người thợ được rảnh để làm việc an toàn."
+    },
+    {
+      "id": "bua",
+      "name": "Búa",
+      "english": "Hammer",
+      "emoji": "🔨",
+      "group": "gia_cong",
+      "aliases": ["bua", "cai bua", "bua dinh", "bua nguoi", "bua tay", "hammer"],
+      "summary": "dùng để đập tạo lực khi đóng đinh, đục, tán hoặc nắn thẳng vật",
+      "description": "Búa là dụng cụ gia công quen thuộc nhất. Trong xưởng cơ khí, búa thường được dùng cùng với đục và chấm dấu để tạo lực đánh.",
+      "structure": [
+        "Đầu búa bằng thép, được tôi cứng",
+        "Cán búa bằng gỗ, nhựa hoặc thép",
+        "Nêm (chêm) giữ đầu búa chặt vào cán"
+      ],
+      "uses": [
+        "Đóng đinh, tháo lắp chi tiết",
+        "Tạo lực đánh khi đục, chấm dấu",
+        "Tán đinh, nắn thẳng chi tiết bị cong"
+      ],
+      "how_to_use": [
+        "Cầm ở gần cuối cán búa để đánh mạnh và chính xác",
+        "Mắt nhìn vào vật cần đánh (đầu đục, đầu đinh), không nhìn đầu búa",
+        "Đánh dứt khoát, vung búa vừa phải"
+      ],
+      "safety": [
+        "Trước khi dùng, kiểm tra đầu búa đã tra chặt vào cán, cán không bị nứt",
+        "Cán búa phải khô, không dính dầu mỡ",
+        "Không đứng phía sau hoặc trong tầm vung búa của người khác",
+        "Đeo kính bảo hộ, không đánh hai búa vào nhau"
+      ],
+      "key_safety": "Kiểm tra đầu tra chặt vào cán, cán khô ráo; không đứng trong tầm vung của người khác",
+      "fun_fact": "Búa là một trong những công cụ lâu đời nhất của loài người – từ thời tiền sử, người ta đã dùng hòn đá cầm tay để đập."
+    },
+    {
+      "id": "cua_tay",
+      "name": "Cưa tay",
+      "english": "Hacksaw / Hand saw",
+      "emoji": "🪚",
+      "group": "gia_cong",
+      "aliases": ["cua tay", "cua", "cua sat", "cua go", "cua cam tay", "saw", "hacksaw", "hand saw", "handsaw"],
+      "summary": "dùng để cắt vật liệu kim loại (cưa sắt) hoặc gỗ (cưa gỗ) thành từng phần",
+      "description": "Cưa sắt gồm khung cưa và lưỡi cưa mỏng có nhiều răng nhỏ. Khi đẩy cưa đi là lúc cắt vật liệu, khi kéo về thì nhẹ nhàng.",
+      "structure": [
+        "Khung cưa và tay nắm",
+        "Lưỡi cưa bằng thép có nhiều răng nhỏ",
+        "Chốt và vít điều chỉnh (tai hồng) để căng lưỡi cưa"
+      ],
+      "uses": [
+        "Cắt đứt phôi kim loại",
+        "Cắt bỏ phần thừa của chi tiết",
+        "Cắt rãnh trên vật liệu"
+      ],
+      "how_to_use": [
+        "Lắp lưỡi cưa sao cho răng hướng về phía trước (ra xa tay nắm), căng vừa phải",
+        "Kẹp vật chặt trên ê tô, đường cưa ở gần má ê tô",
+        "Đứng thẳng, thoải mái; đẩy cưa đi tạo lực cắt, kéo về nhẹ nhàng, nhịp đều"
+      ],
+      "safety": [
+        "Kẹp vật thật chặt trên ê tô",
+        "Lưỡi cưa căng vừa phải, không dùng lưỡi bị nứt, mẻ",
+        "Khi sắp cưa đứt, đẩy cưa nhẹ hơn và đỡ vật để không rơi vào chân",
+        "Không dùng tay gạt hoặc dùng miệng thổi mạt cưa"
+      ],
+      "key_safety": "Khi sắp cắt đứt, đẩy nhẹ tay hơn và đỡ lấy vật để vật không rơi vào chân",
+      "fun_fact": "Lưỡi cưa sắt thường có khoảng 14 – 32 răng trên mỗi inch (2,54 cm); vật càng mỏng càng cần lưỡi có răng nhỏ và dày."
+    },
+    {
+      "id": "giua",
+      "name": "Giũa",
+      "english": "File",
+      "emoji": "🛠️",
+      "group": "gia_cong",
+      "aliases": ["giua", "dua", "cai giua", "cai dua", "file", "metal file"],
+      "summary": "dùng để làm nhẵn, làm phẳng bề mặt nhỏ hoặc mài sửa các cạnh",
+      "description": "Giũa (còn gọi là dũa) có rất nhiều răng nhỏ trên bề mặt. Mỗi lần đẩy, các răng giũa cắt đi một lớp kim loại rất mỏng.",
+      "structure": [
+        "Thân giũa bằng thép cứng, mặt có nhiều răng nhỏ",
+        "Chuôi giũa tra vào cán gỗ hoặc nhựa",
+        "Có nhiều hình dạng: dẹt, tròn, bán nguyệt, vuông, tam giác"
+      ],
+      "uses": [
+        "Làm nhẵn, làm phẳng bề mặt chi tiết nhỏ",
+        "Gia công những chỗ khó làm bằng máy",
+        "Mài bỏ ba via (cạnh sắc) sau khi cưa"
+      ],
+      "how_to_use": [
+        "Tay thuận cầm cán giũa, tay kia đặt lên đầu giũa",
+        "Đẩy giũa đi tạo lực cắt, kéo về nhẹ nhàng không ấn",
+        "Điều chỉnh lực ấn của hai tay để giũa luôn thăng bằng"
+      ],
+      "safety": [
+        "Không dùng giũa không có cán hoặc cán bị nứt vỡ (chuôi nhọn có thể đâm vào tay)",
+        "Không thổi phoi bằng miệng, dùng chổi lông để quét",
+        "Không dùng giũa để bẩy hay gõ vì giũa rất cứng, giòn, dễ gãy",
+        "Bàn nguội phải chắc chắn, vật được kẹp chặt"
+      ],
+      "key_safety": "Phải có cán chắc chắn để chuôi nhọn không đâm vào tay; không dùng để bẩy hay gõ vì thân giòn, dễ gãy",
+      "fun_fact": "Thép làm giũa được tôi rất cứng nên giũa sắc nhưng giòn – làm rơi xuống nền cứng có thể bị gãy!"
+    },
+    {
+      "id": "duc",
+      "name": "Đục",
+      "english": "Chisel",
+      "emoji": "⛏️",
+      "group": "gia_cong",
+      "aliases": ["duc", "duc bang", "duc nhon", "duc sat", "chisel", "cold chisel"],
+      "summary": "dùng để chặt đứt vật liệu hoặc tạo rãnh, tạo mặt phẳng",
+      "description": "Đục được dùng cùng với búa. Lực đánh của búa truyền qua thân đục xuống lưỡi sắc để cắt vật liệu.",
+      "structure": [
+        "Đầu đục: nơi búa đánh vào",
+        "Thân đục có tiết diện tròn, dẹt hoặc đa giác",
+        "Lưỡi đục sắc, được tôi cứng"
+      ],
+      "uses": [
+        "Chặt đứt thanh, tấm kim loại",
+        "Tạo rãnh, tạo mặt phẳng",
+        "Phá bỏ phần thừa của chi tiết"
+      ],
+      "how_to_use": [
+        "Cầm đục chắc vừa phải, tay cách đầu đục khoảng 20 – 30 mm",
+        "Đặt lưỡi đục nghiêng phù hợp với mặt vật",
+        "Đánh búa dứt khoát vào đầu đục, mắt nhìn vào lưỡi đục"
+      ],
+      "safety": [
+        "Không dùng đục có đầu bị nấm (toè ra) vì mảnh kim loại dễ văng",
+        "Phải có lưới chắn phoi khi đục",
+        "Cầm đục, cầm búa chắc chắn và đánh búa trúng đầu đục",
+        "Đeo kính bảo hộ"
+      ],
+      "key_safety": "Không dùng loại có đầu bị nấm (toè ra), phải có lưới chắn phoi trước mặt",
+      "fun_fact": "Khi đầu đục bị toè ra như cây nấm, người thợ phải mài sửa lại vì các “mép nấm” đó có thể vỡ và văng ra rất nguy hiểm."
+    },
+    {
+      "id": "khoan",
+      "name": "Máy khoan",
+      "english": "Drill",
+      "emoji": "🌀",
+      "group": "gia_cong",
+      "aliases": ["khoan", "may khoan", "khoan tay", "may khoan cam tay", "khoan dien", "drill", "hand drill", "power drill"],
+      "summary": "dùng để tạo lỗ trên vật liệu như kim loại, gỗ, nhựa",
+      "description": "Máy khoan quay mũi khoan với tốc độ cao để cắt vật liệu thành lỗ. Ở trường học thường dùng máy khoan điện cầm tay hoặc khoan tay quay.",
+      "structure": [
+        "Thân máy có động cơ và tay cầm",
+        "Công tắc điều khiển",
+        "Bầu cặp để kẹp mũi khoan",
+        "Mũi khoan bằng thép có rãnh xoắn"
+      ],
+      "uses": [
+        "Khoan lỗ trên kim loại, gỗ, nhựa",
+        "Khoan mồi trước khi bắt vít"
+      ],
+      "how_to_use": [
+        "Chấm dấu tâm lỗ, kẹp chặt vật trên ê tô",
+        "Lắp mũi khoan đúng cỡ, siết chặt bầu cặp",
+        "Giữ máy vuông góc với mặt vật, ấn đều tay"
+      ],
+      "safety": [
+        "Buộc gọn tóc, không đeo găng tay vải, không mặc áo rộng khi khoan",
+        "Kẹp chặt vật, không cầm vật bằng tay khi khoan",
+        "Không dùng tay gạt phoi hay sờ vào mũi khoan vừa khoan xong (rất nóng)",
+        "Rút điện trước khi thay mũi khoan"
+      ],
+      "key_safety": "Không đeo găng tay vải và phải buộc gọn tóc để không bị mũi đang quay cuốn vào",
+      "fun_fact": "Rãnh xoắn trên mũi khoan không chỉ giúp cắt mà còn “chở” phoi ra khỏi lỗ khoan."
+    }
+  ]
+}

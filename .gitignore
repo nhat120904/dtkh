@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Dữ liệu học sinh (lưu cục bộ trên máy)
+user_data/
+
+# Model: giữ model đi kèm ứng dụng, bỏ các bản sao lưu
+models/_backup_*/
+
+# Ảnh thô chưa lọc (tải lại bằng scripts/collect_dataset.py)
+dataset_raw/
+
+# Hệ điều hành / trình soạn thảo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,295 @@
+{
+  "version": 1,
+  "topics": {
+    "ten": "Tên dụng cụ",
+    "cong_dung": "Công dụng",
+    "an_toan": "An toàn"
+  },
+  "questions": [
+    {
+      "id": "b01", "topic": "ten", "tool": "mo_let",
+      "question": "Dụng cụ nào có thể điều chỉnh độ mở của miệng để vặn được nhiều cỡ đai ốc khác nhau?",
+      "options": ["Mỏ lết", "Cờ lê", "Kìm", "Tua vít"], "answer": 0,
+      "explanation": "Mỏ lết có con lăn (vít điều chỉnh) để thay đổi độ mở miệng. Cờ lê thì có cỡ miệng cố định."
+    },
+    {
+      "id": "b02", "topic": "ten", "tool": "e_to",
+      "question": "Khi cưa, giũa hay đục, em dùng dụng cụ nào để kẹp chặt vật trên bàn nguội?",
+      "options": ["Kìm", "Ê tô", "Mỏ lết", "Thước cặp"], "answer": 1,
+      "explanation": "Ê tô được bắt chặt trên bàn nguội, dùng để kẹp chặt vật khi gia công."
+    },
+    {
+      "id": "b03", "topic": "ten", "tool": "thuoc_cap",
+      "question": "Dụng cụ nào đo được cả đường kính trong, đường kính ngoài và chiều sâu lỗ?",
+      "options": ["Thước lá", "Ê ke", "Thước cặp", "Thước dây"], "answer": 2,
+      "explanation": "Thước cặp có mỏ đo ngoài, mỏ đo trong và cán đo chiều sâu."
+    },
+    {
+      "id": "b04", "topic": "ten", "tool": "tua_vit",
+      "question": "Tên gọi “tua vít” bắt nguồn từ tiếng nước nào?",
+      "options": ["Tiếng Anh", "Tiếng Pháp", "Tiếng Nga", "Tiếng Trung"], "answer": 1,
+      "explanation": "“Tua vít” đến từ tiếng Pháp “tournevis”. Nhiều tên dụng cụ cơ khí khác như cờ lê, mỏ lết, ê tô, ê ke cũng mượn từ tiếng Pháp."
+    },
+    {
+      "id": "b05", "topic": "ten", "tool": "mui_vach",
+      "question": "Dụng cụ dùng để kẻ đường dấu lên bề mặt kim loại trước khi gia công là:",
+      "options": ["Tua vít", "Đục", "Mũi vạch", "Giũa"], "answer": 2,
+      "explanation": "Mũi vạch có đầu nhọn tôi cứng, dùng như “bút chì” của thợ cơ khí."
+    },
+    {
+      "id": "b06", "topic": "ten", "tool": "cham_dau",
+      "question": "Trước khi khoan, người thợ dùng dụng cụ nào để đánh dấu tâm lỗ?",
+      "options": ["Chấm dấu", "Mũi vạch", "Đục", "Thước lá"], "answer": 0,
+      "explanation": "Chấm dấu tạo một vết lõm nhỏ giúp mũi khoan không bị trượt khi bắt đầu khoan."
+    },
+    {
+      "id": "b07", "topic": "ten",
+      "question": "Ba nhóm dụng cụ cơ khí chính em được học gồm:",
+      "options": [
+        "Đo và kiểm tra; tháo lắp và kẹp chặt; gia công",
+        "Điện; nước; cơ khí",
+        "Cầm tay; để bàn; treo tường",
+        "To; vừa; nhỏ"
+      ], "answer": 0,
+      "explanation": "Dụng cụ cơ khí được chia thành: dụng cụ đo và kiểm tra (vạch dấu), dụng cụ tháo lắp và kẹp chặt, dụng cụ gia công."
+    },
+    {
+      "id": "b08", "topic": "ten", "tool": "tua_vit",
+      "question": "Tua vít có đầu hình chữ thập (+) thường được gọi là:",
+      "options": ["Tua vít dẹt", "Tua vít bake", "Tua vít lục giác", "Tua vít tròn"], "answer": 1,
+      "explanation": "Tua vít bake có đầu 4 cạnh hình chữ thập, dùng cho vít có rãnh chữ thập."
+    },
+    {
+      "id": "b09", "topic": "ten",
+      "question": "Dụng cụ nào sau đây thuộc nhóm dụng cụ GIA CÔNG?",
+      "options": ["Thước cặp", "Mỏ lết", "Giũa", "Ê tô"], "answer": 2,
+      "explanation": "Giũa làm thay đổi hình dạng bề mặt vật nên thuộc nhóm gia công. Thước cặp thuộc nhóm đo; mỏ lết, ê tô thuộc nhóm tháo lắp và kẹp chặt."
+    },
+    {
+      "id": "b10", "topic": "ten",
+      "question": "Dụng cụ nào sau đây KHÔNG thuộc nhóm dụng cụ tháo lắp và kẹp chặt?",
+      "options": ["Cờ lê", "Kìm", "Tua vít", "Cưa tay"], "answer": 3,
+      "explanation": "Cưa tay dùng để cắt vật liệu nên thuộc nhóm dụng cụ gia công."
+    },
+    {
+      "id": "c01", "topic": "cong_dung", "tool": "cua_tay",
+      "question": "Khi cưa sắt, lực cắt được tạo ra ở hành trình nào?",
+      "options": ["Khi đẩy cưa đi", "Khi kéo cưa về", "Cả hai như nhau", "Khi dừng cưa"], "answer": 0,
+      "explanation": "Răng cưa hướng về phía trước nên khi đẩy cưa đi là lúc cắt. Kéo về nhẹ nhàng, không ấn."
+    },
+    {
+      "id": "c02", "topic": "cong_dung", "tool": "cua_tay",
+      "question": "Khi lắp lưỡi cưa vào khung cưa sắt, răng cưa phải hướng:",
+      "options": ["Về phía tay nắm", "Về phía trước, ra xa tay nắm", "Lên trên", "Hướng nào cũng được"], "answer": 1,
+      "explanation": "Răng cưa hướng về phía trước để cắt vật liệu khi đẩy cưa đi."
+    },
+    {
+      "id": "c03", "topic": "cong_dung", "tool": "giua",
+      "question": "Khi giũa, vì sao phải điều chỉnh lực ấn của hai tay?",
+      "options": [
+        "Để giũa luôn thăng bằng, mặt giũa được phẳng",
+        "Để giũa nhanh mòn",
+        "Để tạo ra tiếng kêu",
+        "Không cần điều chỉnh"
+      ], "answer": 0,
+      "explanation": "Lực ấn hai tay thay đổi theo vị trí giũa để giũa không bị chúc, giúp bề mặt phẳng."
+    },
+    {
+      "id": "c04", "topic": "cong_dung", "tool": "e_ke",
+      "question": "Ê ke và ke vuông dùng để làm gì?",
+      "options": ["Đo đường kính lỗ", "Kiểm tra góc vuông", "Kẹp chặt vật", "Đánh dấu tâm lỗ"], "answer": 1,
+      "explanation": "Ê ke, ke vuông dùng để kiểm tra góc vuông và vạch đường vuông góc."
+    },
+    {
+      "id": "c05", "topic": "cong_dung", "tool": "duc",
+      "question": "Khi đục, tay cầm đục nên cách đầu đục khoảng bao nhiêu?",
+      "options": ["2 – 3 mm", "20 – 30 mm", "200 – 300 mm", "Cầm sát lưỡi đục"], "answer": 1,
+      "explanation": "Cầm đục chắc vừa phải, cách đầu đục khoảng 20 – 30 mm để đánh búa an toàn."
+    },
+    {
+      "id": "c06", "topic": "cong_dung", "tool": "thuoc_cap",
+      "question": "Độ chính xác của thước cặp thường dùng ở trường học khoảng:",
+      "options": ["1 cm", "1 mm", "0,1 – 0,05 mm", "1 m"], "answer": 2,
+      "explanation": "Thước cặp nhờ có du xích nên đo chính xác tới 0,1 – 0,05 mm."
+    },
+    {
+      "id": "c07", "topic": "cong_dung", "tool": "co_le",
+      "question": "Khi dùng cờ lê, nên kéo hay đẩy cờ lê?",
+      "options": [
+        "Nên kéo cờ lê về phía mình",
+        "Nên đẩy thật mạnh ra xa",
+        "Nên đập búa vào cán",
+        "Nên dùng chân đạp"
+      ], "answer": 0,
+      "explanation": "Kéo cờ lê về phía mình giúp kiểm soát lực tốt hơn, nếu bị trượt tay cũng không đập vào vật phía trước."
+    },
+    {
+      "id": "c08", "topic": "cong_dung", "tool": "khoan",
+      "question": "Rãnh xoắn trên mũi khoan có tác dụng gì?",
+      "options": ["Để trang trí", "Giúp thoát phoi ra khỏi lỗ khoan", "Làm mũi khoan nhẹ hơn", "Để đo độ sâu"], "answer": 1,
+      "explanation": "Rãnh xoắn vừa tạo lưỡi cắt vừa đẩy phoi ra ngoài lỗ khoan."
+    },
+    {
+      "id": "c09", "topic": "cong_dung", "tool": "kim",
+      "question": "Vì sao bóp nhẹ tay cầm mà kìm vẫn kẹp rất chặt?",
+      "options": [
+        "Vì kìm hoạt động như một đòn bẩy",
+        "Vì kìm có nam châm",
+        "Vì kìm có lò xo rất mạnh",
+        "Vì kìm làm bằng nhựa"
+      ], "answer": 0,
+      "explanation": "Khớp quay của kìm đặt gần má kìm nên lực của tay được khuếch đại theo nguyên lí đòn bẩy."
+    },
+    {
+      "id": "c10", "topic": "cong_dung", "tool": "thuoc_la",
+      "question": "Khi đọc số đo trên thước lá, mắt em phải nhìn như thế nào?",
+      "options": ["Nhìn xiên từ bên trái", "Nhìn thẳng góc với mặt thước", "Nhắm một mắt và nhìn xiên", "Nhìn từ xa 2 m"], "answer": 1,
+      "explanation": "Nhìn thẳng góc với vạch chia giúp tránh sai số khi đọc kết quả."
+    },
+    {
+      "id": "a01", "topic": "an_toan",
+      "question": "Khi cưa hoặc giũa, phoi (mạt kim loại) bám trên vật. Em nên làm gì?",
+      "options": ["Dùng chổi lông để quét", "Thổi bằng miệng", "Gạt bằng tay", "Lau bằng áo"], "answer": 0,
+      "explanation": "Phoi kim loại sắc, có thể bay vào mắt hoặc cứa tay. Luôn dùng chổi lông để quét."
+    },
+    {
+      "id": "a02", "topic": "an_toan", "tool": "bua",
+      "question": "Trước khi dùng búa, việc quan trọng nhất cần kiểm tra là gì?",
+      "options": [
+        "Màu sơn của búa",
+        "Đầu búa đã tra chặt vào cán, cán không nứt",
+        "Búa nặng bao nhiêu gam",
+        "Búa mua ở đâu"
+      ], "answer": 1,
+      "explanation": "Đầu búa lỏng có thể văng ra khi vung, gây tai nạn nguy hiểm."
+    },
+    {
+      "id": "a03", "topic": "an_toan", "tool": "khoan",
+      "question": "Khi khoan bằng máy khoan, điều nào sau đây là ĐÚNG?",
+      "options": [
+        "Đeo găng tay vải cho an toàn",
+        "Cầm vật nhỏ bằng tay để khoan cho nhanh",
+        "Buộc gọn tóc, không đeo găng tay vải",
+        "Dùng tay gạt phoi khi máy đang chạy"
+      ], "answer": 2,
+      "explanation": "Găng tay vải, tóc dài, áo rộng có thể bị mũi khoan đang quay cuốn vào. Vật phải được kẹp chặt trên ê tô."
+    },
+    {
+      "id": "a04", "topic": "an_toan", "tool": "mo_let",
+      "question": "Khi vặn bằng mỏ lết, nên để lực tác dụng chủ yếu vào đâu?",
+      "options": ["Má tĩnh (má cố định)", "Má động", "Con lăn điều chỉnh", "Đâu cũng được"], "answer": 0,
+      "explanation": "Má tĩnh liền với thân nên chịu lực tốt. Đặt lực vào má động dễ làm hỏng mỏ lết và trượt tay."
+    },
+    {
+      "id": "a05", "topic": "an_toan", "tool": "cua_tay",
+      "question": "Khi sắp cưa đứt vật, em cần làm gì?",
+      "options": [
+        "Cưa mạnh và nhanh hơn",
+        "Đẩy cưa nhẹ hơn và đỡ vật để vật không rơi",
+        "Buông tay khỏi cưa",
+        "Dùng chân đỡ vật"
+      ], "answer": 1,
+      "explanation": "Khi sắp đứt, vật dễ rơi vào chân và lưỡi cưa dễ gãy nếu đẩy mạnh."
+    },
+    {
+      "id": "a06", "topic": "an_toan", "tool": "tua_vit",
+      "question": "Vì sao KHÔNG nên dùng tua vít để cạy hoặc đục?",
+      "options": [
+        "Vì tua vít sẽ bị bẩn",
+        "Vì thân, đầu tua vít có thể cong, gãy, văng gây thương tích",
+        "Vì tua vít quá nặng",
+        "Vì sẽ mất nhiều thời gian"
+      ], "answer": 1,
+      "explanation": "Tua vít chỉ dùng để vặn vít. Dùng sai công dụng vừa hỏng dụng cụ vừa nguy hiểm."
+    },
+    {
+      "id": "a07", "topic": "an_toan", "tool": "tua_vit",
+      "question": "Khi dùng tua vít sửa đồ điện, việc đầu tiên cần làm là gì?",
+      "options": ["Ngắt nguồn điện", "Đeo găng tay vải", "Làm ướt tay", "Bật quạt"], "answer": 0,
+      "explanation": "Luôn ngắt điện trước khi sửa chữa và dùng tua vít có cán cách điện."
+    },
+    {
+      "id": "a08", "topic": "an_toan", "tool": "duc",
+      "question": "Dùng đục có đầu bị toè (bị nấm) nguy hiểm vì sao?",
+      "options": [
+        "Vì đục sẽ bị gỉ",
+        "Vì mảnh kim loại ở đầu đục có thể vỡ và văng ra",
+        "Vì đục sẽ nhẹ hơn",
+        "Vì không đẹp"
+      ], "answer": 1,
+      "explanation": "Các mép nấm ở đầu đục dễ vỡ khi bị búa đánh và văng vào người."
+    },
+    {
+      "id": "a09", "topic": "an_toan",
+      "question": "Đồ bảo hộ quan trọng để bảo vệ mắt trong xưởng cơ khí là:",
+      "options": ["Mũ lưỡi trai", "Khẩu trang", "Kính bảo hộ", "Đồng hồ"], "answer": 2,
+      "explanation": "Kính bảo hộ ngăn phoi, mảnh vụn văng vào mắt khi cưa, đục, khoan, giũa."
+    },
+    {
+      "id": "a10", "topic": "an_toan", "tool": "co_le",
+      "question": "Để tăng lực khi vặn, bạn Nam nối thêm ống thép vào cán cờ lê. Việc làm này:",
+      "options": [
+        "Rất đúng, nên làm",
+        "Không an toàn, có thể làm hỏng cờ lê và trượt tay gây chấn thương",
+        "Không ảnh hưởng gì",
+        "Chỉ sai khi trời mưa"
+      ], "answer": 1,
+      "explanation": "Nối dài cán tạo lực quá lớn, cờ lê dễ gãy hoặc trượt khỏi đai ốc."
+    },
+    {
+      "id": "a11", "topic": "an_toan", "tool": "e_to",
+      "question": "Khi kẹp vật trên ê tô, điều nào sau đây là đúng?",
+      "options": [
+        "Dùng búa đập vào tay quay cho thật chặt",
+        "Kẹp vừa đủ chặt, không để ngón tay giữa hai má",
+        "Đặt tay giữa hai má để giữ vật",
+        "Nối ống thép vào tay quay"
+      ], "answer": 1,
+      "explanation": "Kẹp vừa đủ chặt là được; đập búa hay nối ống làm hỏng ê tô, đặt tay giữa hai má rất dễ bị kẹp."
+    },
+    {
+      "id": "a12", "topic": "an_toan", "tool": "thuoc_cap",
+      "question": "Khi dùng thước cặp, việc nào sau đây KHÔNG được làm?",
+      "options": [
+        "Lau sạch mỏ đo trước khi đo",
+        "Đo vật đang quay trên máy",
+        "Cất thước vào hộp sau khi dùng",
+        "Vặn vít hãm trước khi đọc số"
+      ], "answer": 1,
+      "explanation": "Đo vật đang quay rất nguy hiểm và làm hỏng thước. Chỉ đo khi vật đã đứng yên."
+    },
+    {
+      "id": "a13", "topic": "an_toan", "tool": "giua",
+      "question": "Vì sao không được dùng giũa không có cán?",
+      "options": [
+        "Vì chuôi giũa nhọn có thể đâm vào tay",
+        "Vì giũa sẽ không cắt được",
+        "Vì giũa sẽ bị mất màu",
+        "Vì giũa sẽ nhẹ quá"
+      ], "answer": 0,
+      "explanation": "Chuôi giũa nhọn, nếu không có cán chắc chắn sẽ đâm vào lòng bàn tay khi đẩy giũa."
+    },
+    {
+      "id": "a14", "topic": "an_toan", "tool": "kim",
+      "question": "Khi dùng kìm cắt dây thép, em nên:",
+      "options": [
+        "Hướng đầu dây bị cắt về phía bạn bên cạnh",
+        "Hướng đầu dây ra xa mặt và người khác",
+        "Cắt sát mắt để nhìn cho rõ",
+        "Dùng răng cắn thêm cho nhanh"
+      ], "answer": 1,
+      "explanation": "Mẩu dây bị cắt có thể văng rất mạnh, cần hướng ra xa mặt và người xung quanh."
+    },
+    {
+      "id": "a15", "topic": "an_toan",
+      "question": "Khi làm việc ở xưởng, dụng cụ sau khi dùng xong cần được:",
+      "options": [
+        "Để bừa trên bàn cho tiện",
+        "Lau sạch và cất đúng nơi quy định",
+        "Bỏ vào túi quần mang về",
+        "Ném vào thùng dụng cụ"
+      ], "answer": 1,
+      "explanation": "Sắp xếp gọn gàng giúp dụng cụ bền và tránh tai nạn do vấp, rơi, đâm vào tay."
+    }
+  ]
+}

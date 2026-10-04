@@ -1,0 +1,43 @@
+{
+ "kept": {
+  "bua": 149,
+  "kim": 209,
+  "cua_tay": 73,
+  "giua": 52,
+  "co_le": 103,
+  "mo_let": 42,
+  "tua_vit": 167,
+  "nen": 500
+ },
+ "total_raw": 7494,
+ "moved": {
+  "bua->kim": 1,
+  "bua->cua_tay": 2,
+  "bua->giua": 1,
+  "co_le->kim": 1,
+  "co_le->mo_let": 3,
+  "cua_tay->kim": 2,
+  "cua_tay->giua": 1,
+  "giua->cua_tay": 6,
+  "giua->tua_vit": 8,
+  "giua->kim": 1,
+  "kim->mo_let": 2,
+  "kim->giua": 2,
+  "kim->bua": 1,
+  "mo_let->kim": 2,
+  "mo_let->giua": 1,
+  "tua_vit->giua": 5,
+  "tua_vit->kim": 2,
+  "tua_vit->bua": 1
+ },
+ "dropped_by_class": {
+  "bua": 698,
+  "co_le": 671,
+  "cua_tay": 1953,
+  "giua": 1377,
+  "kim": 432,
+  "mo_let": 275,
+  "nen": 288,
+  "tua_vit": 505
+ }
+}

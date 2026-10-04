@@ -1,0 +1,8 @@
+0 Búa
+1 Kìm
+2 Tua vít
+3 Cờ lê
+4 Cưa tay
+5 Giũa
+6 Nền
+7 Thước lá
