@@ -65,6 +65,32 @@ có thể truy cập qua địa chỉ *Network URL* mà Streamlit in ra.
 
 > 💡 Ứng dụng vẫn chạy được nếu **chưa cài được TensorFlow** – khi đó chỉ có chế độ DEMO.
 
+### Windows: TensorFlow báo lỗi DLL
+
+Nếu `import tensorflow` báo lỗi `_pywrap_tensorflow_internal`, kiểm tra Python gốc của `.venv`:
+
+```bat
+.venv\Scripts\python -c "import sys; print(sys.base_prefix)"
+```
+
+Nếu đường dẫn trỏ vào Miniconda/Anaconda, `.venv` đã được tạo từ Python của Conda. Hãy mở **Command Prompt**
+mới (không dùng Anaconda Prompt), chạy `py -0p` để tìm Python 3.12 cài độc lập. Nếu chưa có, cài
+[Python 3.12 bản Windows x64](https://www.python.org/downloads/release/python-31210/). Kiểm tra
+`py -3.12 -c "import sys; print(sys.executable)"` trỏ vào bản Python độc lập trước khi tạo lại môi trường:
+
+```bat
+cd /d D:\dtkh
+ren .venv .venv-conda-backup
+py -3.12 -m venv .venv
+.venv\Scripts\python -m pip install -r requirements.txt
+.venv\Scripts\python -c "import tensorflow as tf; print(tf.__version__)"
+run.bat
+```
+
+Đóng ứng dụng và các cửa sổ CMD đang dùng `.venv` trước khi đổi tên thư mục. Đường dẫn `D:\dtkh` là ví dụ;
+thay bằng thư mục dự án trên máy của bạn. Nếu Python gốc đã là bản độc lập mà TensorFlow vẫn báo lỗi,
+kiểm tra [yêu cầu cài đặt TensorFlow trên Windows](https://www.tensorflow.org/install/pip).
+
 ---
 
 ## 🧠 Model AI đi kèm
